@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@color/bagh"/>
+    <item
+       android:height="200dp"
+        android:width="200dp"
+        android:gravity="center"
+        >
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/whatsapplogo"
+            android:mipMap="true"
+            />
+
+    </item>
+
+    <item
+        android:bottom="90dp"
+        android:height="70dp"
+        android:width="100dp"
+        android:gravity="center|bottom"
+        >
+        <bitmap
+
+            android:gravity="fill"
+            android:mipMap="true"
+            android:src="@drawable/aytas" />
+
+    </item>
+
+</layer-list>
